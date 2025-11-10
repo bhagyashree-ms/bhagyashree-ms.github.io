@@ -35,7 +35,9 @@ body {
 .footer-section {
     width: 100%;
     height: 611px;
-    background-color: #00ffb0;
+    background-image: url(images/footer-bg1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }   
 .top-navigation-container {
     width: 85%;
@@ -298,14 +300,16 @@ margin-top: 20px;
 .types-of-pillow {
     width: 85%;
     display: flex;
-    height: 150%;
+    height: 75%;
     position: absolute;
     margin-top: 3%;
 }
 .types-of-pillow > .recron {
     width: 33.3%;
     margin-right: 4%;
-    
+    box-shadow: 0px 7px 7px 0px rgba(1, 1, 1, 0.1);
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 8%;
 }
 .recron-img {
     background-image: url(images/recron.png);
@@ -318,8 +322,12 @@ margin-top: 20px;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.recron > .recron-tag {
-
+.recron-img > .recron-tag {
+    width: 50%;
+    height: 15%;
+}
+.recron-tag > img {
+    width: 100%;
 }
 .recron > p {
     font-size: 14px;
@@ -340,12 +348,15 @@ margin-top: 20px;
     border: none;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
     float: right;
-    margin-top: 26%;
+    margin-top: 12%;
     margin-right: 0;
 }
 .types-of-pillow > .latex {
    width: 33.3%;
    margin-right: 4%;
+   box-shadow: 0px 7px 7px 0px rgba(1, 1, 1, 0.1);
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 8%;
 }
 .latex-img {
     background-image: url(images/latex.png);
@@ -357,6 +368,13 @@ margin-top: 20px;
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.latex-img > .latex-tag {
+    width: 50%;
+    height: 15%;
+}
+.latex-tag > img {
+    width: 100%;
 }
 .latex > p {
     font-size: 14px;
@@ -377,12 +395,15 @@ margin-top: 20px;
     border: none;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
     float: right;
-    margin-top: 26%;
+    margin-top: 7%;
     margin-right: 0;
 }
 .types-of-pillow > .memory-foam {
     width: 33.3%;
     margin-right: 4%;
+    box-shadow: 0px 7px 7px 0px rgba(1, 1, 1, 0.1);
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 8%;
 }
 .memory-foam-img {
     background-image: url(images/memory-foam.png);
@@ -394,6 +415,14 @@ margin-top: 20px;
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.memory-foam-img > .memory-foam-tag {
+    width: 67%;
+    bottom: 3%;
+    position: relative;
+}
+.memory-foam-tag > img {
+    width: 100%;
 }
 .memory-foam > p {
     font-size: 14px;
@@ -414,6 +443,135 @@ margin-top: 20px;
     border: none;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
     float: right;
-    margin-top: 26%;
+    margin-top: 6%;
     margin-right: 0;
+}
+.footer-section > .footer-bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/footer-bg2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+} 
+.footer-bg > .footer-container {
+    height: 60%;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 18%;
+    position: absolute;
+}
+.footer-container > .container1 {
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 80%;
+}
+.container1 > .content1 {
+    width: 25%;
+}
+.content1 > .white-kopema-logo{
+    width: 70%;
+}
+.content1 > .white-kopema-logo > img{
+    width: 100%;
+    height: 100%;
+}
+.content1 > .white-logo {
+    font-size: 14px;
+    font-family: Inter;
+    color: #ffffff;
+    text-align: justify;
+    margin: 0;
+    width: 66%;
+}
+.content1 > p {
+    font-size: 14px;
+    font-family: Inter;
+    color: #ffffff;
+    width: 60%;
+}
+.container1 > .content2 {
+     width: 20%;
+     padding-top: 0.8%;
+}
+.content2 > p {
+    font-size: 16px;
+    font-family: Graphik;
+    color: #ffffff;
+}
+.content2 > ul {
+    list-style-image: url("images/layer-1.svg");
+    font-size: 14px;
+    font-family: Inter;
+    color: #ffffff;
+    line-height: 2;
+    padding: 0;
+    margin-top: 25px;
+}
+.container1 > .content3 {
+     width: 15%;
+     padding-top: 0.8%;
+}
+.content3 > p {
+    font-size: 16px;
+    font-family: Graphik;
+    color: #ffffff;
+}
+.content3 > ul {
+    list-style-image: url("images/layer-1.svg");
+    font-size: 14px;
+    font-family: Inter;
+    color: #ffffff;
+    line-height: 2;
+    padding: 0;
+    margin-top: 25px;
+}
+.container1 > .content4 {
+     width: 15%;
+     padding-top: 0.8%;
+}
+.content4 > p {
+    font-size: 16px;
+    font-family: Graphik;
+    color: #ffffff;
+}
+.content4 > ul {
+    list-style-image: url("images/layer-1.svg");
+    font-size: 14px;
+    font-family: Inter;
+    color: #ffffff;
+    line-height: 2;
+    padding: 0;
+    margin-top: 25px;
+}
+.container1 > .content5 {
+     width: 25%;
+     padding-top: 0.8%;
+}
+.content5 > .content5-heading {
+    font-size: 16px;
+    font-family: Graphik;
+    color: #ffffff;
+}
+.content5-paragraph {
+    font-size: 14px;
+    font-family: Inter;
+    color: #ffffff;
+}
+.news-letter {
+    display: flex;
+    position: relative;
+    border: solid 1px;
+    border-color: #ffffff;
+}
+.news-letter > .letter{
+    font-size: 14px;
+    font-family: Inter;
+    color: #ffffff;
+    padding-top: 18px;
+    padding-left: 8px;
+}
+.news-letter > .letter-vector{
+    padding-left: 82px;
+    padding-top: 14px;
 }

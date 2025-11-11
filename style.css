@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Graphik";
+  src: url(fonts/Graphik-Regular.woff);
+}
+@font-face {
+  font-family: "Noto sans";
+  src: url(fonts/NotoSans.woff);
+}
+@font-face {
+  font-family: "Inter";
+  src: url(fonts/Inter-Regular.woff);
+}
+@font-face {
+  font-family: "Avenir";
+  src: url(fonts/Avenir\ Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Graphik-semibold";
+  src: url(fonts/Graphik-Semibold.ttf) format("truetype");
+}
 body {
     width: 100%;
     height: 3058px;
@@ -49,28 +69,33 @@ body {
 }
 .top-navigation-container > .store {
     text-align: left;
-    width: 30%;
+    width: 28%;
 }
 .top-navigation-container > .store > span{
     height: 19px;
     color: #ffffff;
     vertical-align: super;
     font-family: Noto sans;
+    font-size: 14px;
 }
 .top-navigation-container > .info{
+    width: 44%;
     vertical-align: middle;
 }
 .top-navigation-container > .info span {
     text-align: center;
-    width: 40%;
     color: #ffffff;
     vertical-align: super;
     font-size: 13.5px;
+    font-family: Noto sans;
+    font-size: 14px;
 }
 .top-navigation-container > .cta {
     text-align: right;
-     width: 30%;
+     width: 28%;
      color: #ffffff;
+     font-family: Noto sans;
+     font-size: 14px;
 }
 .top-navigation-container > .cta > span {
     vertical-align: super;
@@ -101,6 +126,7 @@ body {
     float: left;
 }
 .nav-container >.lists > .lists-nav-bar > li a {
+    font-family: Graphik;
     display: block;
     font-size: 13px;
     background-color: #ffffff;
@@ -116,27 +142,27 @@ body {
 margin-top: 20px;
 }
 .banner-section > .portrait {
-   padding-top: 193px;
-   margin-left: 100px;
-   width: 668px;
+    padding-top: 207px;
+    margin-left: 92px;
+    width: 670px;
     height: 193px;
     line-height: 150%;
 }
 .banner-section > .portrait .text1 {
    font-family: Graphik;
-   font-size: 30px;
+   font-size: 26px;
    margin: 0%;
 }
 .banner-section > .portrait .text2 {
      color: #8C1C41;
      font-family: Graphik;
-     font-size: 30px;
+     font-size: 33px;
 }
 .banner-section > .portrait .text3 {
      color: #000000;
      font-family: Inter;
      font-size: 16px;
-     width: 420px;
+     width: 427px;
      height: 56px;
 }
 .banner-section > .portrait button{
@@ -148,6 +174,27 @@ margin-top: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 10px 20px;
+    font-family: Graphik;
+    border: none;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.banner-section > .banner-icon {
+    float: right;
+    padding-top: 140px;
+    width: 3%;
+}
+.banner-icon > .icon-1 {
+    background-color: #ffffff;
+    padding: 21%;
+    margin-bottom: 32%;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+}
+.banner-icon > .icon-2 {
+    background-color: #ffffff;
+    padding: 21%;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
 }
 .about-us-section-container{
     width: 85%;
@@ -155,6 +202,17 @@ margin-top: 20px;
     display: flex;
     margin-top: 7.5%;
     margin-left: 7.5%;
+}
+.about-us-section > .flower-img {
+    background-image: url(images/flower.png);
+    background-repeat: no-repeat;
+    height: 35%;
+    background-size: 100% 100%;
+    width: 7%;
+    bottom: 15%;
+    float: right;
+    position: relative;
+    opacity: 25%;
 }
 .about-us-section-container > .about-us-image {
     width: 60%;
@@ -171,6 +229,7 @@ margin-top: 20px;
 .about-us-section-container > .about-us {
     width: 40%;
     margin-left: 5%;
+    margin-top: 5%;
 }
 .about-us > .about-us-text1 {
     font-size: 20px;
@@ -189,6 +248,10 @@ margin-top: 20px;
     font-size: 16px;
     font-family: Inter;
 }
+.about-us > .about-us-text4 {
+    font-size: 16px;
+    font-family: Inter;
+}
 .about-us >  button{
     color: #ffffff;
     font-size: 16px;
@@ -200,6 +263,7 @@ margin-top: 20px;
     padding: 10px 20px;
     border: none;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+    font-family: Graphik;
 }
 .bar-section-container {
     width: 85%;
@@ -233,7 +297,8 @@ margin-top: 20px;
     text-align: center;
     font-size: 14px;
     font-family: Avenir;
-    padding: 0 20% 0 20%;
+    padding: 0 14% 0 14%;
+    line-height: 1.2;
 }
 .bar-section-container > .better-durability {
     width: 33.3%;
@@ -253,7 +318,8 @@ margin-top: 20px;
     text-align: center;
     font-size: 14px;
     font-family: Avenir;
-    padding: 0 20% 0 20%;
+    padding: 0 14% 0 14%;
+    line-height: 1.2;
 }
 .bar-section-container > .opc {
     width: 33.3%;
@@ -273,7 +339,8 @@ margin-top: 20px;
     text-align: center;
     font-size: 14px;
     font-family: Avenir;
-    padding: 0 20% 0 20%;
+    padding: 0 14% 0 14%;
+    line-height: 1.2;
 }
 .pillow-types-section > .pts-section {
     width: 85%;
@@ -305,8 +372,8 @@ margin-top: 20px;
     margin-top: 3%;
 }
 .types-of-pillow > .recron {
-    width: 33.3%;
-    margin-right: 4%;
+    width: 30%;
+    /* margin-right: 4%; */
     box-shadow: 0px 7px 7px 0px rgba(1, 1, 1, 0.1);
     border-top-right-radius: 10%;
     border-bottom-left-radius: 8%;
@@ -350,11 +417,13 @@ margin-top: 20px;
     float: right;
     margin-top: 12%;
     margin-right: 0;
+    font-family: Graphik;
 }
 .types-of-pillow > .latex {
-   width: 33.3%;
-   margin-right: 4%;
-   box-shadow: 0px 7px 7px 0px rgba(1, 1, 1, 0.1);
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 0px 7px 7px 0px rgba(1, 1, 1, 0.1);
     border-top-right-radius: 10%;
     border-bottom-left-radius: 8%;
 }
@@ -397,10 +466,11 @@ margin-top: 20px;
     float: right;
     margin-top: 7%;
     margin-right: 0;
+    font-family: Graphik;
 }
 .types-of-pillow > .memory-foam {
-    width: 33.3%;
-    margin-right: 4%;
+    width: 30%;
+    /* margin-right: 4%; */
     box-shadow: 0px 7px 7px 0px rgba(1, 1, 1, 0.1);
     border-top-right-radius: 10%;
     border-bottom-left-radius: 8%;
@@ -443,8 +513,7 @@ margin-top: 20px;
     border: none;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
     float: right;
-    margin-top: 6%;
-    margin-right: 0;
+    font-family: Graphik;
 }
 .footer-section > .footer-bg{
     width: 100%;
@@ -475,24 +544,27 @@ margin-top: 20px;
 .content1 > .white-kopema-logo > img{
     width: 100%;
     height: 100%;
+    right: 8%;
+    position: relative;
 }
 .content1 > .white-logo {
-    font-size: 14px;
+    font-size: 12.5px;
     font-family: Inter;
     color: #ffffff;
-    text-align: justify;
     margin: 0;
-    width: 66%;
+    width: 70%;
+    line-height: 1.5;
 }
 .content1 > p {
     font-size: 14px;
     font-family: Inter;
     color: #ffffff;
-    width: 60%;
+    width: 65%;
 }
 .container1 > .content2 {
      width: 20%;
-     padding-top: 0.8%;
+    position: relative;
+    right: 5px;
 }
 .content2 > p {
     font-size: 16px;
@@ -500,22 +572,23 @@ margin-top: 20px;
     color: #ffffff;
 }
 .content2 > ul {
-    list-style-image: url("images/layer-1.svg");
-    font-size: 14px;
+    list-style-image: url(images/layer-1.svg);
+    font-size: 13px;
     font-family: Inter;
     color: #ffffff;
-    line-height: 2;
+    line-height: 3;
     padding: 0;
-    margin-top: 25px;
 }
 .container1 > .content3 {
      width: 15%;
-     padding-top: 0.8%;
+    
 }
 .content3 > p {
     font-size: 16px;
     font-family: Graphik;
     color: #ffffff;
+     right: 12px;
+    position: relative;
 }
 .content3 > ul {
     list-style-image: url("images/layer-1.svg");
@@ -524,30 +597,29 @@ margin-top: 20px;
     color: #ffffff;
     line-height: 2;
     padding: 0;
-    margin-top: 25px;
 }
 .container1 > .content4 {
-     width: 15%;
-     padding-top: 0.8%;
+     width: 17%;
+     left: 30px;
+    position: relative;
 }
 .content4 > p {
     font-size: 16px;
     font-family: Graphik;
     color: #ffffff;
+    position: relative;
+    right: 13px;
 }
 .content4 > ul {
     list-style-image: url("images/layer-1.svg");
     font-size: 14px;
     font-family: Inter;
     color: #ffffff;
-    line-height: 2;
     padding: 0;
-    margin-top: 25px;
     line-height: 2.5;
 }
 .container1 > .content5 {
      width: 25%;
-     padding-top: 0.8%;
 }
 .content5 > .content5-heading {
     font-size: 16px;
@@ -559,26 +631,47 @@ margin-top: 20px;
     font-family: Inter;
     color: #ffffff;
     text-align: justify;
+    margin-top: 24px;
+    line-height: 1.5;
 }
 .news-letter {
     display: flex;
     position: relative;
     border: solid 1px;
     border-color: #ffffff;
-    margin-top: 32px;
+    height: 14%;
 }
 .news-letter > .letter{
     font-size: 14px;
     font-family: Inter;
     color: #ffffff;
-    padding-top: 18px;
+    padding-top: 12px;
     padding-left: 8px;
+    width: 156px;
 }
 .news-letter > .letter-vector{
-    padding-left: 130px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-top: 9px;
+   
 }
 .icons {
    padding-top: 22px;
+}
+.footer-container > .container2 {
+    margin-top: 25px;
+    border-top: solid 1px;
+    border-color: #ffffff;
+    padding-top: 10px;
+}
+.container2 > .footer-part1 {
+    float: left;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Inter;
+}
+.container2 > .footer-part2 {
+    float: right;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Inter;
 }
